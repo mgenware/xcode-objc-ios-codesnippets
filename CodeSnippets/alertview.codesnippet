@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"&lt;#(NSString *)#&gt;" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+	<string>UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"&lt;#message#&gt;" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 [alert show];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>alertview</string>
