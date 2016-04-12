@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>NSLocalizedString(@"&lt;#key#&gt;", nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8F866904-F469-413A-8B20-DCCF3E4CB1D7</string>
+	<string>lstr</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>

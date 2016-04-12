@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>#define &lt;#macro#&gt; &lt;#value#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>46B55B5C-8BF0-43CC-BFF5-C5DE5CFEAA91</string>
+	<string>dfn</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>

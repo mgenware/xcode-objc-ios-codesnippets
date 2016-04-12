@@ -12,7 +12,7 @@
 	<string>#pragma mark -
 #pragma mark &lt;#name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>42D13684-17F9-4C23-87B0-554193EEB861</string>
+	<string>pmark</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>

@@ -11,9 +11,9 @@
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, strong) &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BCB6AD93-2AC9-4667-A25C-C971FA77AB59</string>
+	<string>prop</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Property(Strong)</string>
 	<key>IDECodeSnippetUserSnippet</key>

@@ -12,7 +12,7 @@
 	<string>UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"&lt;#(NSString *)#&gt;" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 [alert show];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9DE277CF-65EA-4F8F-BF96-468C03422DF2</string>
+	<string>alertview</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>

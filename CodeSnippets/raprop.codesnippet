@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, assign, readonly) &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EDDD1F59-5A90-4C73-A4DD-145D5352C5B3</string>
+	<string>raprop</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>

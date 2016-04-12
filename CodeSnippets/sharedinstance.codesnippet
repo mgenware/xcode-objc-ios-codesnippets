@@ -19,7 +19,7 @@
     return ret;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>48C43B52-0D9D-4425-8C3A-38C41665339A</string>
+	<string>sharedinstance</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>

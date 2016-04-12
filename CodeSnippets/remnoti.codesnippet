@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>[[NSNotificationCenter defaultCenter] removeObserver:self name:&lt;#(NSString *)#&gt; object:nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4BB09EDC-90B8-48BF-B664-29939674A661</string>
+	<string>remnoti</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
