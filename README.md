@@ -10,7 +10,7 @@ open ~/Library/Developer/Xcode/UserData
 * Restart Xcode.
 
 # Objective-C Code Snippets
-**alertview**: UIAlertView
+**alertview**: `UIAlertView`
 ```objective-c
 UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<message>" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 [alert show];
@@ -21,7 +21,7 @@ UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<mess
 @property (nonatomic, assign) <type> <name>;
 ```
 
-**dfn**: #define
+**dfn**: `#define`
 ```objective-c
 #define <macro> <value>
 ```
@@ -33,7 +33,7 @@ for (int i = 0; i < <length>; i++) {
 }
 ```
 
-**globalq**: dispatch_async(Global Queue)
+**globalq**: `dispatch_async` (Global Queue)
 ```objective-c
 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
   <code>
@@ -58,7 +58,7 @@ dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 }
 ```
 
-**ipt**: #import
+**ipt**: `#import`
 ```objective-c
 #import <header>
 ```
@@ -68,7 +68,7 @@ dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 NSLocalizedString(@"<key>", nil)
 ```
 
-**mainq**: dispatch_async(Main Queue)
+**mainq**: `dispatch_async` (Main Queue)
 ```objective-c
 dispatch_async(dispatch_get_main_queue(), ^{
   <code>
@@ -82,7 +82,7 @@ dispatch_async(dispatch_get_main_queue(), ^{
  */
 ```
 
-**nslf**: NSLog with Format String
+**nslf**: `NSLog` with Format String
 ```objective-c
 NSLog(@"%@", <object>);
 ```
