@@ -16,24 +16,24 @@ UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<mess
 [alert show];
 ```
 
-**aprop** property (nonatomic, assign).
+**aprop** nonatomic, assign property.
 ```objective-c
 @property (nonatomic, assign) <type> <name>;
 ```
 
-**dfn**: `#define`.
+**dfn** `#define`.
 ```objective-c
 #define <macro> <value>
 ```
 
-**ffor** for Loop.
+**ffor** for loop.
 ```objective-c
 for (int i = 0; i < <length>; i++) {
   <statements>
 }
 ```
 
-**globalq** `dispatch_async` (Global Queue).
+**globalq** `dispatch_async` on global queue.
 ```objective-c
 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
   <code>
@@ -58,17 +58,17 @@ dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 }
 ```
 
-**ipt**: `#import`.
+**ipt** `#import`.
 ```objective-c
 #import <header>
 ```
 
-**lstr** localized string.
+**lstr** `NSLocalizedString`.
 ```objective-c
 NSLocalizedString(@"<key>", nil)
 ```
 
-**mainq** `dispatch_async` (Main Queue).
+**mainq** `dispatch_async` on main queue.
 ```objective-c
 dispatch_async(dispatch_get_main_queue(), ^{
   <code>
@@ -87,7 +87,7 @@ dispatch_async(dispatch_get_main_queue(), ^{
 NSLog(@"%@", <object>);
 ```
 
-**pinterface** private interface.
+**pinterface** private interface implementation.
 ```objective-c
 @interface <class> ()
 
@@ -105,12 +105,12 @@ NSLog(@"%@", <object>);
 [[NSNotificationCenter defaultCenter] postNotificationName:<name>; object:nil userInfo:<userInfo>];
 ```
 
-**prop** property (nonatomic, strong).
+**prop** nonatomic, strong property.
 ```objective-c
 @property (nonatomic, strong) <type> <name>;
 ```
 
-**raprop** property (nonatomic, assign, readonly).
+**raprop** nonatomic, assign, readonly property.
 ```objective-c
 @property (nonatomic, assign, readonly) <type> <name>;
 ```
@@ -120,7 +120,7 @@ NSLog(@"%@", <object>);
 [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(<selector>) name:<name> object:nil];
 ```
 
-**remnoti** remove a notification
+**remnoti** remove a notification.
 ```objective-c
 [[NSNotificationCenter defaultCenter] removeObserver:self name:<name> object:nil];
 ```
