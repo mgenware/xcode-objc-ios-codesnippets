@@ -10,13 +10,13 @@ open ~/Library/Developer/Xcode/UserData
 * Restart Xcode.
 
 # Objective-C Code Snippets
-**alertview**: `UIAlertView`.
+**alertview** `UIAlertView`.
 ```objective-c
 UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<message>" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
 [alert show];
 ```
 
-**aprop**: Property(nonatomic, assign).
+**aprop** property (nonatomic, assign).
 ```objective-c
 @property (nonatomic, assign) <type> <name>;
 ```
@@ -26,28 +26,28 @@ UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<mess
 #define <macro> <value>
 ```
 
-**ffor**: For Loop.
+**ffor** for Loop.
 ```objective-c
 for (int i = 0; i < <length>; i++) {
   <statements>
 }
 ```
 
-**globalq**: `dispatch_async` (Global Queue).
+**globalq** `dispatch_async` (Global Queue).
 ```objective-c
 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
   <code>
 });
 ```
 
-**handlenoti**: Notification Handler.
+**handlenoti** notification handler.
 ```objective-c
 - (void)<method>:(NSNotification *)notification {
   <code>
 }
 ```
 
-**iinit**: Object Initializer.
+**iinit** object initializer.
 ```objective-c
 - (instancetype)init {
     self = [super init];
@@ -63,64 +63,64 @@ dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 #import <header>
 ```
 
-**lstr**: Localized string.
+**lstr** localized string.
 ```objective-c
 NSLocalizedString(@"<key>", nil)
 ```
 
-**mainq**: `dispatch_async` (Main Queue).
+**mainq** `dispatch_async` (Main Queue).
 ```objective-c
 dispatch_async(dispatch_get_main_queue(), ^{
   <code>
 });
 ```
 
-**mlcomment**: Multiline comments.
+**mlcomment** multiline comments.
 ```objective-c
 /**
  * <content>
  */
 ```
 
-**nslf**: `NSLog` with Format String.
+**nslf** `NSLog` with Format String.
 ```objective-c
 NSLog(@"%@", <object>);
 ```
 
-**pinterface**: private interface.
+**pinterface** private interface.
 ```objective-c
 @interface <class> ()
 
 @end
 ```
 
-**pmark**: `#pragma mark`.
+**pmark** `#pragma mark`.
 ```objective-c
 #pragma mark -
 #pragma mark <name>
 ```
 
-**postnoti**: Post a Notification.
+**postnoti** post a notification.
 ```objective-c
 [[NSNotificationCenter defaultCenter] postNotificationName:<name>; object:nil userInfo:<userInfo>];
 ```
 
-**prop**: Property(nonatomic, strong).
+**prop** property (nonatomic, strong).
 ```objective-c
 @property (nonatomic, strong) <type> <name>;
 ```
 
-**raprop**: Property(nonatomic, assign, readonly).
+**raprop** property (nonatomic, assign, readonly).
 ```objective-c
 @property (nonatomic, assign, readonly) <type> <name>;
 ```
 
-**regnoti**: Register a Notification.
+**regnoti** register a notification.
 ```objective-c
 [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(<selector>) name:<name> object:nil];
 ```
 
-**remnoti**: Remove a Notification
+**remnoti** remove a notification
 ```objective-c
 [[NSNotificationCenter defaultCenter] removeObserver:self name:<name> object:nil];
 ```
