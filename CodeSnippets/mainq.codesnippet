@@ -10,8 +10,8 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>dispatch_async(dispatch_get_main_queue(), ^{
-            &lt;#code#&gt;
-        });</string>
+    &lt;#code#&gt;
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>mainq</string>
 	<key>IDECodeSnippetLanguage</key>

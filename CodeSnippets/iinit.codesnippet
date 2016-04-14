@@ -12,8 +12,8 @@
 	<string>- (instancetype)init {
     self = [super init];
     if (self) {
-		&lt;#init#&gt;
-	}
+        &lt;#init#&gt;
+    }
     return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

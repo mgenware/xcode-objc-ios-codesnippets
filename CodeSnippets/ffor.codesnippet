@@ -9,10 +9,9 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    for (int i = 0; i &lt; &lt;#length#&gt;; i++)
-    {
-        &lt;#statements#&gt;
-    }</string>
+	<string>for (int i = 0; i &lt; &lt;#length#&gt;; i++) {
+    &lt;#statements#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>ffor</string>
 	<key>IDECodeSnippetLanguage</key>

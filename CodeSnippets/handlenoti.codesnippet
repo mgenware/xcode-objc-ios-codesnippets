@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)&lt;#method#&gt;:(NSNotification *)notification
-{
+	<string>- (void)&lt;#method#&gt;:(NSNotification *)notification {
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

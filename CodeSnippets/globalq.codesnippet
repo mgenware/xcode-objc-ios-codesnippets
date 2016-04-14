@@ -10,8 +10,8 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-            &lt;#code#&gt;
-        });</string>
+    &lt;#code#&gt;
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>globalq</string>
 	<key>IDECodeSnippetLanguage</key>
