@@ -11,12 +11,12 @@
 	<key>IDECodeSnippetContents</key>
 	<string>+ (instancetype)sharedInstance
 {
-    static &lt;#class#&gt; *ret = nil;
+    static &lt;#type#&gt; *result = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&amp;onceToken, ^{
-        ret = [[&lt;#class#&gt; alloc] init];
+        result = [[&lt;#type#&gt; alloc] init];
     });
-    return ret;
+    return result;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>sharedinstance</string>

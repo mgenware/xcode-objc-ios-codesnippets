@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[NSString stringWithFormat:@"%@", &lt;#str#&gt;]</string>
+	<string>[NSString stringWithFormat:@"%@", &lt;#object#&gt;]</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>strf</string>
 	<key>IDECodeSnippetLanguage</key>
