@@ -125,4 +125,24 @@ NSLog(@"%@", <object>);
 [[NSNotificationCenter defaultCenter] removeObserver:self name:<name> object:nil];
 ```
 
-**TODO**: MORE SNIPPETS DOCS
+**rprop** nonatomic, strong, readonly property.
+```objective-c
+@property (nonatomic, strong, readonly) <type> <name>;
+```
+
+**sharedinstance** shared instance.
+```objective-c
++ (instancetype)sharedInstance {
+    static <type> *result = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        result = [[<type> alloc] init];
+    });
+    return result;
+}
+```
+
+**strf** `StringWithFormat`.
+```objective-c
+[NSString stringWithFormat:@"%@", <object>]
+```
