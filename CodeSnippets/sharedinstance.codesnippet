@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (instancetype)sharedInstance
-{
+	<string>+ (instancetype)sharedInstance {
     static &lt;#type#&gt; *result = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&amp;onceToken, ^{
