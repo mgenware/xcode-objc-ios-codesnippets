@@ -29,21 +29,21 @@ UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<mess
 **ffor** for loop.
 ```objective-c
 for (int i = 0; i < <length>; i++) {
-  <statements>
+    <statements>
 }
 ```
 
 **globalq** `dispatch_async` on global queue.
 ```objective-c
 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-  <code>
+    <code>
 });
 ```
 
 **handlenoti** notification handler.
 ```objective-c
 - (void)<method>:(NSNotification *)notification {
-  <code>
+    <code>
 }
 ```
 
@@ -52,8 +52,8 @@ dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 - (instancetype)init {
     self = [super init];
     if (self) {
-		    <code>
-	  }
+        <code>
+    }
     return self;
 }
 ```
@@ -71,7 +71,7 @@ NSLocalizedString(@"<key>", nil)
 **mainq** `dispatch_async` on main queue.
 ```objective-c
 dispatch_async(dispatch_get_main_queue(), ^{
-  <code>
+    <code>
 });
 ```
 
