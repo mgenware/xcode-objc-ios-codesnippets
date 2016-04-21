@@ -2,6 +2,7 @@
 Some useful code snippets for Xcode.
 
 # Installation
+* Download this repository.
 * Open Xcode user data directory.
 ```sh
 open ~/Library/Developer/Xcode/UserData
