@@ -2,6 +2,12 @@
 Some useful code snippets for Xcode.
 
 # Installation
+## Auto Installation
+* Download this repository.
+* Navigate to repository root directory in Terminal.
+* Run `sh install.sh`.
+
+## Manual Installation
 * Download this repository.
 * Open Xcode user data directory.
 ```sh
