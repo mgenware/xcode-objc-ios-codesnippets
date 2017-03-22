@@ -28,6 +28,27 @@ UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<mess
 @property (nonatomic, assign) <type> <name>;
 ```
 
+**commoninit** Common initializer methods for `UIView`(Taken from [here](http://stackoverflow.com/questions/7226239/objective-c-custom-view-and-implementing-init-method).)
+```objective-c
+- (void)commonInit {
+    <code>
+}
+
+- (id)initWithFrame:(CGRect)aRect {
+    if ((self = [super initWithFrame:aRect])) {
+        [self commonInit];
+    }
+    return self;
+}
+
+- (id)initWithCoder:(NSCoder*)coder {
+    if ((self = [super initWithCoder:coder])) {
+        [self commonInit];
+    }
+    return self;
+}
+```
+
 **dfn** `#define`.
 ```objective-c
 #define <macro> <value>
