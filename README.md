@@ -97,7 +97,19 @@ dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 - (instancetype)init {
     self = [super init];
     if (self) {
-        <code>
+        <statements>
+    }
+    return self;
+}
+```
+
+**initframe** overrides `initWithFrame`.
+
+```objective-c
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        <statements>;
     }
     return self;
 }
