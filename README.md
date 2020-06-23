@@ -31,7 +31,7 @@ UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<mess
 [alert show];
 ```
 
-**aprop** nonatomic, assign property.
+**aprop** `nonatomic`, `assign` property.
 
 ```objective-c
 @property (nonatomic, assign) <type> <name>;
