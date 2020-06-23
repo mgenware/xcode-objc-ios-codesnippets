@@ -144,13 +144,25 @@ dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 }
 ```
 
+**initcell** overrides `UITableViewCell.initWithStyle`.
+
+```objective-c
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        <statements>
+    }
+    return self;
+}
+```
+
 **initframe** overrides `initWithFrame`.
 
 ```objective-c
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        <statements>;
+        <statements>
     }
     return self;
 }
