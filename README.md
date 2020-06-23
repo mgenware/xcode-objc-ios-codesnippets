@@ -46,14 +46,14 @@ UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<mess
     <code>
 }
 
-- (id)initWithFrame:(CGRect)aRect {
+- (instancetype)initWithFrame:(CGRect)aRect {
     if ((self = [super initWithFrame:aRect])) {
         [self commonInit];
     }
     return self;
 }
 
-- (id)initWithCoder:(NSCoder*)coder {
+- (instancetype)initWithCoder:(NSCoder*)coder {
     if ((self = [super initWithCoder:coder])) {
         [self commonInit];
     }
