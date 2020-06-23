@@ -156,13 +156,13 @@ NSLog(@"%@", <object>);
 [[NSNotificationCenter defaultCenter] postNotificationName:<name>; object:nil userInfo:<userInfo>];
 ```
 
-**prop** nonatomic, strong property.
+**prop** `nonatomic`, `strong` property.
 
 ```objective-c
 @property (nonatomic, strong) <type> <name>;
 ```
 
-**raprop** nonatomic, assign, readonly property.
+**raprop** `nonatomic`, `assign`, `readonly` property.
 
 ```objective-c
 @property (nonatomic, assign, readonly) <type> <name>;
@@ -180,13 +180,13 @@ NSLog(@"%@", <object>);
 [[NSNotificationCenter defaultCenter] removeObserver:self name:<name> object:nil];
 ```
 
-**rprop** nonatomic, strong, readonly property.
+**rprop** `nonatomic`, `strong`, `readonly` property.
 
 ```objective-c
 @property (nonatomic, strong, readonly) <type> <name>;
 ```
 
-**sharedinstance** shared instance.
+**sharedinstance** a shared instance.
 
 ```objective-c
 + (instancetype)sharedInstance {
@@ -203,4 +203,28 @@ NSLog(@"%@", <object>);
 
 ```objective-c
 [NSString stringWithFormat:@"%@", <object>]
+```
+
+**newview** creates a `UIView`.
+
+```objective-c
+[[UIView alloc] initWithFrame:CGRectZero]
+```
+
+**newcview** creates a custom `UIView`.
+
+```objective-c
+[[<type> alloc] initWithFrame:CGRectZero]
+```
+
+**newbutton** creates a new `UIButton`.
+
+```objective-c
+[UIButton buttonWithType:UIButtonTypeCustom]
+```
+
+**newlabel** creates a custom `UILabel`.
+
+```objective-c
+[[UILabel alloc] initWithFrame:CGRectZero]
 ```
