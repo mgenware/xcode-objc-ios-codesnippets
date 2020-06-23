@@ -6,7 +6,7 @@
 	<string>newview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>[[UIView alloc] initWithFrame:CGRectZero]</string>

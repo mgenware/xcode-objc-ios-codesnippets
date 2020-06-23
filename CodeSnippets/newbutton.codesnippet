@@ -6,7 +6,7 @@
 	<string>newbutton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>[UIButton buttonWithType:UIButtonTypeCustom]</string>
