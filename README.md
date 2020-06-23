@@ -9,6 +9,7 @@ Useful code snippets for Xcode / Objective-C / iOS.
 - Download this repository.
 - Navigate to the root directory of this repository in Terminal.
 - Run `sh install.sh`.
+- Restart Xcode.
 
 ## Manual Installation
 
