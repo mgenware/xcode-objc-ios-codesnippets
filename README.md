@@ -26,6 +26,46 @@ open ~/Library/Developer/Xcode/UserData
 
 > The snippets below are sorted alphabetically.
 
+<blockquote>
+Unlike builtin Xcode snippets, snippets here don't have starting braces appear on their own line. Therefore, some snippets have an extra letter at the beginning just to make them similar while not to conflict with Xcode builtin snippets, for example:
+
+```objective-c
+// Xcode `init` snippet:
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        <#statements#>
+    }
+    return self;
+}
+
+// Ours is `iinit`:
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        <#statements#>
+    }
+    return self;
+}
+```
+
+Some snippets also offer complementary functions to builtin snippets:
+
+```objective-c
+// Xcode `for` snippet:
+for (<#initialization#>; <#condition#>; <#increment#>) {
+    <#statements#>
+}
+
+// Our `ffor` snippet:
+for (int i = 0; i < <#length#>; i++) {
+    <#statements#>
+}
+```
+
+</blockquote>
+
 **alertview** creates a `UIAlertView`.
 
 ```objective-c
