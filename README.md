@@ -22,9 +22,11 @@ open ~/Library/Developer/Xcode/UserData
 - Copy the `CodeSnippets` directory from this repository to Xcode user data directory.
 - Restart Xcode.
 
-# Objective-C Code Snippets
+# Code Snippets
 
-**alertview** `UIAlertView`.
+> The snippets below are sorted alphabetically.
+
+**alertview** creates a `UIAlertView`.
 
 ```objective-c
 UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<message>" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
@@ -37,7 +39,7 @@ UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<mess
 @property (nonatomic, assign) <type> <name>;
 ```
 
-**commoninit** Common initializer methods for `UIView`(Taken from [here](http://stackoverflow.com/questions/7226239/objective-c-custom-view-and-implementing-init-method).)
+**commoninit** common initializer methods for `UIView`(Taken from [here](http://stackoverflow.com/questions/7226239/objective-c-custom-view-and-implementing-init-method).)
 
 ```objective-c
 - (void)commonInit {
@@ -65,7 +67,7 @@ UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<mess
 #define <macro> <value>
 ```
 
-**ffor** for loop.
+**ffor** `for` loop.
 
 ```objective-c
 for (int i = 0; i < <length>; i++) {
@@ -73,7 +75,7 @@ for (int i = 0; i < <length>; i++) {
 }
 ```
 
-**globalq** `dispatch_async` on global queue.
+**globalq** `dispatch_async` on a global queue.
 
 ```objective-c
 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
@@ -113,7 +115,7 @@ dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 NSLocalizedString(@"<key>", nil)
 ```
 
-**mainq** `dispatch_async` on main queue.
+**mainq** `dispatch_async` on a main queue.
 
 ```objective-c
 dispatch_async(dispatch_get_main_queue(), ^{
@@ -129,7 +131,31 @@ dispatch_async(dispatch_get_main_queue(), ^{
  */
 ```
 
-**nslf** `NSLog` with Format String.
+**newbutton** creates a `UIButton`.
+
+```objective-c
+[UIButton buttonWithType:UIButtonTypeCustom]
+```
+
+**newcview** creates a custom `UIView`.
+
+```objective-c
+[[<type> alloc] initWithFrame:CGRectZero]
+```
+
+**newlabel** creates a `UILabel`.
+
+```objective-c
+[[UILabel alloc] initWithFrame:CGRectZero]
+```
+
+**newview** creates a `UIView`.
+
+```objective-c
+[[UIView alloc] initWithFrame:CGRectZero]
+```
+
+**nslf** `NSLog` with a format string.
 
 ```objective-c
 NSLog(@"%@", <object>);
@@ -150,7 +176,7 @@ NSLog(@"%@", <object>);
 #pragma mark <name>
 ```
 
-**postnoti** post a notification.
+**postnoti** posts a notification.
 
 ```objective-c
 [[NSNotificationCenter defaultCenter] postNotificationName:<name>; object:nil userInfo:<userInfo>];
@@ -168,13 +194,13 @@ NSLog(@"%@", <object>);
 @property (nonatomic, assign, readonly) <type> <name>;
 ```
 
-**regnoti** register a notification.
+**regnoti** registers a notification.
 
 ```objective-c
 [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(<selector>) name:<name> object:nil];
 ```
 
-**remnoti** remove a notification.
+**remnoti** removes a notification.
 
 ```objective-c
 [[NSNotificationCenter defaultCenter] removeObserver:self name:<name> object:nil];
@@ -199,32 +225,8 @@ NSLog(@"%@", <object>);
 }
 ```
 
-**strf** `StringWithFormat`.
+**strf** `stringWithFormat`.
 
 ```objective-c
 [NSString stringWithFormat:@"%@", <object>]
-```
-
-**newview** creates a `UIView`.
-
-```objective-c
-[[UIView alloc] initWithFrame:CGRectZero]
-```
-
-**newcview** creates a custom `UIView`.
-
-```objective-c
-[[<type> alloc] initWithFrame:CGRectZero]
-```
-
-**newbutton** creates a new `UIButton`.
-
-```objective-c
-[UIButton buttonWithType:UIButtonTypeCustom]
-```
-
-**newlabel** creates a custom `UILabel`.
-
-```objective-c
-[[UILabel alloc] initWithFrame:CGRectZero]
 ```
