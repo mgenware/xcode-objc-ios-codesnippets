@@ -244,7 +244,7 @@ NSLog(@"%@", <object>);
 **postnoti** posts a notification.
 
 ```objective-c
-[[NSNotificationCenter defaultCenter] postNotificationName:<name>; object:nil userInfo:<userInfo>];
+[[NSNotificationCenter defaultCenter] postNotificationName:<name>; object:self userInfo:<userInfo>];
 ```
 
 **prop** `nonatomic`, `strong` property.
