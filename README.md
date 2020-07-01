@@ -51,20 +51,6 @@ Unlike builtin Xcode snippets, snippets here don't have starting braces appear o
 }
 ```
 
-Some snippets also offer complementary functions to builtin snippets:
-
-```objective-c
-// Xcode `for` snippet:
-for (<#initialization#>; <#condition#>; <#increment#>) {
-    <#statements#>
-}
-
-// Our `ffor` snippet:
-for (int i = 0; i < <#length#>; i++) {
-    <#statements#>
-}
-```
-
 </blockquote>
 
 **alertview** creates a `UIAlertView`.
@@ -108,7 +94,7 @@ UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<mess
 #define <macro> <value>
 ```
 
-**ffor** `for` loop.
+**fori** `for` loop.
 
 ```objective-c
 for (int i = 0; i < <length>; i++) {
