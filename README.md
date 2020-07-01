@@ -88,7 +88,7 @@ UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<mess
 }
 ```
 
-**dfn** `#define`.
+**def** `#define`.
 
 ```objective-c
 #define <macro> <value>
