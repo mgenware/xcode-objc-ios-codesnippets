@@ -66,6 +66,14 @@ UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"<mess
 @property (nonatomic, assign) <type> <name>;
 ```
 
+**arc** ARC compile-time check.
+
+```objective-c
+#if !defined(__has_feature) || !__has_feature(objc_arc)
+#error "This file requires ARC support."
+#endif
+```
+
 **commoninit** common initializer methods for `UIView`(Taken from [here](http://stackoverflow.com/questions/7226239/objective-c-custom-view-and-implementing-init-method).)
 
 ```objective-c
