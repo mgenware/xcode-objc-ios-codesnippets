@@ -231,8 +231,7 @@ NSLog(@"%@", <object>);
 **pmark** `#pragma mark`.
 
 ```objective-c
-#pragma mark -
-#pragma mark <name>
+#pragma mark - <name>
 ```
 
 **postnoti** posts a notification.
